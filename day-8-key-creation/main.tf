@@ -1,6 +1,6 @@
 resource "aws_key_pair" "name" {
     key_name = "prabhas"
-    public_key = file("~/.ssh/id_ed25519.pub") #here you need to define public key file path
+    public_key = file("~/.ssh/id_rsa.pub") #here you need to define public key file path
 
   
 }
