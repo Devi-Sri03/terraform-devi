@@ -56,3 +56,4 @@ resource "null_resource" "install_apache" {
     ]
   }
 }
+

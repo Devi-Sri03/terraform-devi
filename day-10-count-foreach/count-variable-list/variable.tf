@@ -17,6 +17,6 @@ variable "key" {
 
 variable "namee" {
     type = list(string)
-    default = [ "sai","venk"]
+    default = [ "devi","sai","venk"]
   
 }

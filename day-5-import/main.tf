@@ -4,3 +4,4 @@ resource "aws_instance" "my-vm" {
     key_name = " "
   
 }
+#terraform import aws_instance.myvm <ID>
